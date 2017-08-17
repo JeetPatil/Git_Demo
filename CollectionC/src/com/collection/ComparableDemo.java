@@ -65,13 +65,13 @@ public class ComparableDemo {
 		l.add(e3);
 		l.add(e6);
 		
+		System.out.println(l);
 		Collections.sort(l);
 		
 		System.out.println(l);
 		
 		Set s = new HashSet<>(l);
-		System.out.println("\nhh"+s);
 		
+		System.out.println("\nhh"+s);	
 	}
-
 }
